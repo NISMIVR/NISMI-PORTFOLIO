@@ -1,0 +1,168 @@
+.certifications {
+  padding: 120px 30px;
+  background: #0a0a0a;
+}
+
+.certifications-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Heading */
+
+.certifications-heading {
+  max-width: 650px;
+  margin-bottom: 60px;
+}
+
+.certifications-heading h2 {
+  font-size: clamp(35px, 5vw, 55px);
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.certifications-heading h2 span {
+  color: #8b5cf6;
+}
+
+.certifications-heading > p:last-child {
+  color: #9ca3af;
+  line-height: 1.8;
+}
+
+/* Grid */
+
+.certifications-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 22px;
+}
+
+/* Card */
+
+.certificate-card {
+  padding: 28px;
+
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.03);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  transition: 0.3s;
+}
+
+.certificate-card:hover {
+  transform: translateY(-7px);
+
+  border-color: rgba(139, 92, 246, 0.5);
+
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+/* Top */
+
+.certificate-top {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  margin-bottom: 25px;
+}
+
+.certificate-icon {
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+
+  background: rgba(124, 58, 237, 0.12);
+
+  font-size: 25px;
+}
+
+.certificate-year {
+  color: #a78bfa;
+
+  font-size: 13px;
+
+  font-weight: 600;
+}
+
+/* Content */
+
+.certificate-card h3 {
+  font-size: 20px;
+
+  line-height: 1.4;
+
+  margin-bottom: 8px;
+}
+
+.certificate-card h4 {
+  color: #8b5cf6;
+
+  font-size: 14px;
+
+  font-weight: 500;
+
+  margin-bottom: 15px;
+}
+
+.certificate-card p {
+  color: #9ca3af;
+
+  font-size: 14px;
+
+  line-height: 1.7;
+
+  margin-bottom: 22px;
+}
+
+/* Link */
+
+.certificate-card a {
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.certificate-card a:hover {
+  color: #a78bfa;
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+
+  .certifications-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+
+  .certifications {
+    padding: 90px 20px;
+  }
+
+  .certifications-grid {
+    grid-template-columns: 1fr;
+  }
+}

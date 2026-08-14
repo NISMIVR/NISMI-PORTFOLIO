@@ -1,0 +1,180 @@
+.experience {
+  padding: 120px 30px;
+  background: #0a0a0a;
+}
+
+.experience-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Heading */
+
+.experience-heading {
+  max-width: 650px;
+  margin-bottom: 70px;
+}
+
+.experience-heading h2 {
+  font-size: clamp(35px, 5vw, 55px);
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.experience-heading h2 span {
+  color: #8b5cf6;
+}
+
+.experience-heading > p:last-child {
+  color: #9ca3af;
+  line-height: 1.8;
+}
+
+/* Timeline */
+
+.timeline {
+  position: relative;
+  padding-left: 45px;
+}
+
+.timeline::before {
+  content: "";
+
+  position: absolute;
+
+  left: 8px;
+  top: 0;
+  bottom: 0;
+
+  width: 1px;
+
+  background: rgba(139, 92, 246, 0.35);
+}
+
+.timeline-item {
+  position: relative;
+
+  margin-bottom: 50px;
+}
+
+.timeline-dot {
+  position: absolute;
+
+  left: -43px;
+  top: 5px;
+
+  width: 17px;
+  height: 17px;
+
+  border-radius: 50%;
+
+  background: #7c3aed;
+
+  border: 4px solid #0a0a0a;
+
+  box-shadow:
+    0 0 0 4px rgba(124, 58, 237, 0.15);
+}
+
+.timeline-content {
+  padding: 30px;
+
+  border-radius: 18px;
+
+  background: rgba(255, 255, 255, 0.03);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  transition: 0.3s;
+}
+
+.timeline-content:hover {
+  transform: translateX(5px);
+
+  border-color: rgba(139, 92, 246, 0.45);
+}
+
+.timeline-year {
+  display: inline-block;
+
+  color: #a78bfa;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  margin-bottom: 12px;
+}
+
+.timeline-content h3 {
+  font-size: 24px;
+
+  margin-bottom: 7px;
+}
+
+.timeline-content h4 {
+  color: #8b5cf6;
+
+  font-size: 15px;
+
+  font-weight: 500;
+
+  margin-bottom: 18px;
+}
+
+.timeline-content p {
+  color: #9ca3af;
+
+  font-size: 15px;
+
+  line-height: 1.8;
+
+  margin-bottom: 20px;
+}
+
+/* Skills */
+
+.experience-skills {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 8px;
+}
+
+.experience-skills span {
+  padding: 7px 11px;
+
+  border-radius: 15px;
+
+  background: rgba(255, 255, 255, 0.05);
+
+  color: #d1d5db;
+
+  font-size: 12px;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+  .experience {
+    padding: 90px 20px;
+  }
+
+  .timeline {
+    padding-left: 35px;
+  }
+
+  .timeline::before {
+    left: 5px;
+  }
+
+  .timeline-dot {
+    left: -37px;
+  }
+
+  .timeline-content {
+    padding: 22px;
+  }
+}
