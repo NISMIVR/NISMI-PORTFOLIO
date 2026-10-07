@@ -29,14 +29,14 @@ function Hero() {
               View My Projects
             </a>
 
-            <a href="nismi-CV.pdf" className="secondary-btn" download>
+            <a href="/nismi.CV.pdf" className="secondary-btn" download>
               Download CV
             </a>
           </div>
 
           <div className="hero-socials">
             <a
-              href="https://github.com/NISMIVR "
+              href="https://github.com/NISMIVR"
               target="_blank"
               rel="noreferrer"
             >
@@ -64,7 +64,7 @@ function Hero() {
             <div className="code-content">
               <p><span>&lt;</span>developer<span>&gt;</span></p>
               <p className="indent">
-                <span>name:</span> "Nismi"
+                <span>name:</span> "Nismi Mahamood"
               </p>
               <p className="indent">
                 <span>role:</span> "Full Stack Developer"

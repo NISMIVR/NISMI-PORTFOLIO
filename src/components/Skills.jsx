@@ -30,7 +30,7 @@ function Skills() {
       icon: "🗄️",
       skills: [
         "MongoDB",
-        "SQL",
+        "MySQL",
         "Database Design",
         "CRUD Operations",
       ],
@@ -39,12 +39,13 @@ function Skills() {
       title: "Tools & Technologies",
       icon: "🔧",
       skills: [
-        "Git",
+    
         "GitHub",
         "VS Code",
         "Postman",
-        "Vite",
-        "npm",
+        "Vercel",
+        "Render",
+      
       ],
     },
   ];

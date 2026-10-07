@@ -9,12 +9,12 @@ function Footer() {
         <div className="footer-brand">
 
           <a href="#home" className="footer-logo">
-            Nismi<span>.</span>
+            Nismi Mahamood<span></span>
           </a>
 
           <p>
-            Full Stack Developer building modern and
-            user-friendly web applications.
+              Passionate about creating clean, responsive,
+  and user-friendly web experiences.
           </p>
 
         </div>
@@ -59,7 +59,7 @@ function Footer() {
       <div className="footer-bottom">
 
         <p>
-          © {new Date().getFullYear()} Nismi. All rights reserved.
+          © {new Date().getFullYear()} Nismi Mahamood. All rights reserved.
         </p>
 
         <a href="#home">

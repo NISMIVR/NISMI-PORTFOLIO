@@ -6,7 +6,7 @@ function Navbar() {
       <div className="nav-container">
 
         <a href="#home" className="logo">
-          Nismi<span>.</span>
+          Nismi Mahamood<span></span>
         </a>
 
         <div className="nav-links">
